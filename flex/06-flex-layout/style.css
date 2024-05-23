@@ -1,3 +1,60 @@
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.header,
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px;
+}
+a{
+  text-decoration: none;
+  color: #666;
+}
+
+.left-links,
+.right-links {
+  display: flex;
+  /* flex-direction: row; */
+  align-items: center;
+  gap: 16px;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  margin: 2px;
+}
+
+.footer {
+  background: #eee;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  gap: 16px
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  gap: 16px;
+
+}
+
+
+
+
+
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
 body {
