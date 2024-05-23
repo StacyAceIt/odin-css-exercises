@@ -1,3 +1,27 @@
+body,
+.content{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  padding: 5%;
+}
+body{
+  gap: 32px
+}
+
+.content{
+  flex-direction: row;
+  gap: 52px;
+}
+.item{
+  max-width: 200px;
+  text-align: center;
+}
+
+
+
+
 body {
   font-family: 'Courier New', Courier, monospace;
 }
